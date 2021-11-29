@@ -3,7 +3,7 @@ var path = require('path')
 var app = express()
 var session = require('express-session');
 var engine = require("ejs-mate");
-var port=3000;
+var port=8080;
 
 app.engine("ejs", engine);
 app.set('view engine', 'ejs');
